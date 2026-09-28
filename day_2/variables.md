@@ -1,3 +1,5 @@
+![alt text](<Python Challenge.png>)
+
 WHAT I LEARNT 
 ~ Built in functions
 In Python we have lots of built-in functions. Built-in functions are globally available for your use that mean you can make use of the built-in functions without importing or configuring. Some of the most commonly used Python built-in functions are the following: print(), len(), type(), int(), float(), str(), input(), list(), dict(), min(), max(), sum(), sorted(), open(), file(), help(), and dir(). In the following table you will see an exhaustive list of Python built-in functions taken from python documentation.
@@ -14,7 +16,7 @@ A variable name can only contain alpha-numeric characters and underscores (A-z, 
 Variable names are case-sensitive (firstname, Firstname, FirstName and FIRSTNAME) are different variables)
 
 Here are some example of valid variable names:
-
+```python
 firstname,
 lastname,
 age,
@@ -30,14 +32,15 @@ current_year_2021,
 birth_year,
 num1,
 num2,
-
+```
 INVALID VARIABLE NAMES:
-
+```python
 first-name, 
 first@name, 
 first$name, 
 num-1, 
 1num.
+```
 
 We will use standard Python variable naming style which has been adopted by many Python developers. Python developers use snake case(snake_case) variable naming convention. We use underscore character after each word for a variable containing more than one word(eg. first_name, last_name, engine_rotation_speed). The example below is an example of standard naming of variables, underscore is required when the variable name is more than one word.
 
@@ -53,7 +56,7 @@ Declaring Multiple Variable in a Line
 Multiple variables can also be declared in one line:
 
 Example:
-
+```python
 first_name, last_name, country, age, is_married = 'Taiwo', 'Precious', 'Nigeria', 18, True
 
 print(first_name, last_name, country, age, is_married)
@@ -77,7 +80,7 @@ age = input('How old are you? ')
 print(first_name)
 
 print(age)
-
+```
 
 # DATA TYPES
 Data Types
@@ -85,8 +88,9 @@ There are several data types in Python. To identify the data type we use the typ
 
 CHECKING DATA TYPES AND CASTING
 Check Data types: To check the data type of certain data/variable we use the type Examples:
-# Different python data types
-Let's declare variables with various data types
+```python
+ #Different python data types
+#Let's declare variables with various data types
 
 first_name = 'Taiwo'     # str
 
@@ -119,12 +123,12 @@ print(type({'name':'Precious'})) # dict
 print(type((1,2)))               # tuple
 
 print(type(zip([1,2],[3,4])))    # zip
+```
 
-
-Casting: Converting one data type to another data type. We use int(), float(), str(), list, set When we do arithmetic operations string numbers should be first converted to int or float otherwise it will return an error. If we concatenate a number with a string, the number should be first converted to a string. We will talk about concatenation in String section.
+~ CASTING: Converting one data type to another data type. We use int(), float(), str(), list, set When we do arithmetic operations string numbers should be first converted to int or float otherwise it will return an error. If we concatenate a number with a string, the number should be first converted to a string. We will talk about concatenation in String section.
 
 Examples:
-
+```python
 # int to float
 num_int = 10
 
@@ -172,7 +176,7 @@ print(first_name)               # 'Asabeneh'
 first_name_to_list = list(first_name)
 
 print(first_name_to_list)            # ['A', 's', 'a', 'b', 'e', 'n', 'e', 'h']
-
+```
 
 
 
