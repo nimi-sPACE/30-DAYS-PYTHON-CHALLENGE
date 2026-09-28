@@ -1,4 +1,4 @@
-![alt text](<ChatGPT Image Sep 28, 2026, 12_23_26 PM.png>)
+![alt text](<Python Challenge-1.png>)
 
 WHAT I LEARNT:
 
