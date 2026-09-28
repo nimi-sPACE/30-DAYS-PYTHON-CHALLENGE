@@ -1,4 +1,4 @@
-![alt text](<Python Challenge-1.png>)
+![alt text](<Python Challenge.png>)
 
 WHAT I LEARNT:
 
